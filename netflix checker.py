@@ -1,5 +1,5 @@
 '''
-by SALAH-ELHINT "https://github.com/SALAH-ELHINT"
+by SALAH-ELHINT "https://github.com/SALAH-ELHINT/Netflix-Checker.git"
 '''
 import pip
 
@@ -222,5 +222,5 @@ driver.close()
 
 
 '''
-by SALAH-ELHINT "https://github.com/SALAH-ELHINT"
+by SALAH-ELHINT "https://github.com/SALAH-ELHINT/Netflix-Checker.git"
 '''
