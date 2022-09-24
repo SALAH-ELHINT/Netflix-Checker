@@ -15,20 +15,19 @@ def import_or_install(package):
         __import__(package)
     except ImportError:
         pip.main(['install', package])
-
-try:
-    from selenium import webdriver
-    from selenium.webdriver.chrome.service import Service as ChromeService
-    from webdriver_manager.chrome import ChromeDriverManager
-    from selenium.common.exceptions import NoSuchElementException
-    from selenium.webdriver.common.keys import Keys
-    from selenium.webdriver.common.by import By
-    import os
-    import time
-except:
-    for i in range(len(install)):
-        import_or_install(install[i])
-
+for i in range(2):
+    try:
+        from selenium import webdriver
+        from selenium.webdriver.chrome.service import Service as ChromeService
+        from webdriver_manager.chrome import ChromeDriverManager
+        from selenium.common.exceptions import NoSuchElementException
+        from selenium.webdriver.common.keys import Keys
+        from selenium.webdriver.common.by import By
+        import os
+        import time
+    except:
+        for i in range(len(install)):
+            import_or_install(install[i])
 options = webdriver.ChromeOptions()
 options.headless = True #hide Chrome Driver
 driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()),options=options)
