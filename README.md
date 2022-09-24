@@ -11,11 +11,13 @@ Python -
 Selenium
 
 ---------------------------------------
+<br>
 
 ## USAGE
 Put your email list and password separated by ':' and run
 
 ---------------------------------------
+<br>
 
 ### 🏆 Features 
 - Ultra fast hits.
@@ -25,6 +27,7 @@ Put your email list and password separated by ':' and run
 - Save hits to file.
 
 ---------------------------------------
+<br>
 
 > **Warning**
 > DISCLAIMER: By using this software, you agree that you are responsible for your actions when using it. You may be IP banned from Netflix.
