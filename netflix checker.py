@@ -71,6 +71,9 @@ print(f'''\033[1;32;40m _________ Settings _____________________________________
 |\n\
 |_________________________________________________________________\033\n''')
 time.sleep(3)
+file_combo = open(f'{combo_name}.txt', 'a+')
+file_combo.writelines('\n')
+file_combo.close()
 file_combo = open(f'{combo_name}.txt', 'r+')
 #file_proxy = open(f'{proxy_name}.txt', 'r+')
 try:
