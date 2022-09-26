@@ -14,7 +14,8 @@ Selenium
 ---------------------------------------
 
 ## USAGE
-Put your email list and password separated by ':' and run
+- Put your email list and password separated by ':' and run.
+- If you find any errors just run code again.
 <br>
 
 ---------------------------------------
